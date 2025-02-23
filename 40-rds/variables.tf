@@ -15,10 +15,6 @@ variable "common_tags" {
     }
 }
 
-variable "alb_tags" {
-    default = {}
-}
-
 variable "domain_name" {
     default = "kothwal.site"
 }

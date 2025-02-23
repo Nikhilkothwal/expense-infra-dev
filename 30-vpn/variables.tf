@@ -14,15 +14,3 @@ variable "common_tags" {
         Terraform = true
     }
 }
-
-variable "alb_tags" {
-    default = {}
-}
-
-variable "domain_name" {
-    default = "kothwal.site"
-}
-
-variable "zone_id" {
-    default = "Z021448929NMXW4P65UQE"
-}
